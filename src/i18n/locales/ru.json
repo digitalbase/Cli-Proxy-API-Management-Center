@@ -1388,7 +1388,7 @@
           "gpt_image_2_base_model": "Базовая модель GPT Image 2",
           "gpt_image_2_base_model_hint": "Основная модель для проксирования gpt-image-2 image-запросов; если пусто или неверно, backend использует значение по умолчанию",
           "routing_strategy": "Стратегия маршрутизации",
-          "routing_strategy_hint": "Выберите стратегию подбора учётных данных",
+          "routing_strategy_hint": "Выберите стратегию; режим сброса квоты использует ближайшее отслеживаемое время сброса",
           "strategy_round_robin": "По кругу",
           "strategy_weighted_round_robin": "Взвешенный круговой алгоритм",
           "strategy_fill_first": "Сначала заполнить",

@@ -1409,7 +1409,7 @@
           "gpt_image_2_base_model": "GPT Image 2 基礎模型",
           "gpt_image_2_base_model_hint": "代理 gpt-image-2 圖片請求時使用的主線模型；留空或非法時後端使用預設值",
           "routing_strategy": "路由策略",
-          "routing_strategy_hint": "選擇憑證選擇策略",
+          "routing_strategy_hint": "選擇憑證策略；按配額重置時間會優先使用最早記錄的重置時間",
           "strategy_round_robin": "輪詢（Round Robin）",
           "strategy_weighted_round_robin": "加權輪詢（Weighted Round Robin）",
           "strategy_fill_first": "填充優先（Fill First）",

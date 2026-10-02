@@ -1385,7 +1385,7 @@
           "gpt_image_2_base_model": "GPT Image 2 Base Model",
           "gpt_image_2_base_model_hint": "Mainline model used when proxying gpt-image-2 image requests; backend uses its default when empty or invalid",
           "routing_strategy": "Routing Strategy",
-          "routing_strategy_hint": "Select credential selection strategy",
+          "routing_strategy_hint": "Choose how credentials are selected; quota reset aware uses the soonest tracked reset",
           "strategy_round_robin": "Round Robin",
           "strategy_weighted_round_robin": "Weighted Round Robin",
           "strategy_fill_first": "Fill First",
