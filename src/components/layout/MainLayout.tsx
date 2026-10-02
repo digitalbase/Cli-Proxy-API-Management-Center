@@ -20,6 +20,7 @@ import { authFilesApi, pluginsApi } from '@/services/api';
 import {
   IconSidebarAuthFiles,
   IconSidebarConfig,
+  IconKey,
   IconSidebarDashboard,
   IconSidebarLogs,
   IconSidebarOauth,
@@ -63,6 +64,7 @@ const sidebarIcons: Record<string, ReactNode> = {
   plugins: <IconSidebarPlugins size={18} />,
   pluginStore: <IconSidebarStore size={18} />,
   config: <IconSidebarConfig size={18} />,
+  apiKeys: <IconKey size={18} />,
   logs: <IconSidebarLogs size={18} />,
   system: <IconSidebarSystem size={18} />,
 };
@@ -663,6 +665,12 @@ export function MainLayout() {
           labelKey: 'nav.config_management',
           metaKey: 'nav_meta.config_management',
           icon: sidebarIcons.config,
+        },
+        {
+          path: '/api-keys',
+          labelKey: 'nav.api_keys',
+          metaKey: 'nav_meta.api_keys',
+          icon: sidebarIcons.apiKeys,
         },
         ...(supportsPlugin
           ? [

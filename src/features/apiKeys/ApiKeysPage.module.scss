@@ -1,0 +1,30 @@
+.page { display: flex; flex-direction: column; gap: 20px; width: 100%; min-width: 0; padding-bottom: 24px; }
+.header { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+.eyebrow { margin: 0 0 6px; color: var(--text-muted); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.header h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); }
+.description { max-width: 680px; margin: 8px 0 0; color: var(--text-secondary); line-height: 1.55; }
+.summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.summary > div { display: flex; align-items: baseline; gap: 12px; }
+.summaryLabel { color: var(--text-muted); font-size: 13px; }
+.summary strong { font-size: 28px; }
+.summary p { max-width: 560px; margin: 0; color: var(--text-secondary); font-size: 13px; line-height: 1.5; }
+.list { display: grid; gap: 12px; }
+.keyCard { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.keyInfo { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.index { display: grid; width: 36px; height: 36px; place-items: center; border-radius: 10px; background: var(--surface-elevated); color: var(--text-muted); font-size: 12px; font-weight: 700; }
+.keyInfo h2 { margin: 0 0 5px; font-size: 15px; }
+.keyInfo code { color: var(--text-secondary); font-size: 13px; letter-spacing: .04em; }
+.actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.empty, .errorCard { text-align: center; }
+.empty h2 { margin: 0 0 8px; font-size: 18px; }
+.empty p { margin: 0 auto 18px; max-width: 480px; color: var(--text-secondary); }
+.errorCard p { margin: 0 0 14px; color: var(--danger-color, #e76f51); }
+.centered { display: grid; min-height: 180px; place-items: center; }
+.form { display: flex; flex-direction: column; gap: 10px; }
+.form label { font-size: 13px; font-weight: 600; }
+.inputRow { display: flex; align-items: center; gap: 8px; }
+.inputRow input { min-width: 0; flex: 1; }
+.formActions { display: flex; justify-content: flex-start; }
+.formError { margin: 0; color: var(--danger-color, #e76f51); font-size: 13px; }
+.modalFooter { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
+@media (max-width: 640px) { .header, .summary, .keyCard { align-items: stretch; flex-direction: column; } .actions { justify-content: flex-start; } }
