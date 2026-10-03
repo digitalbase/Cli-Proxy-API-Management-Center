@@ -2233,7 +2233,7 @@
     "eyebrow": "API Keys",
     "title": "API Keys",
     "description": "Manage client authentication keys",
-    "add": "API Keys",
+    "add": "Create key",
     "configured": "Configured keys",
     "security_note": "Use strong, unique keys and rotate them regularly.",
     "empty_title": "No API keys configured",

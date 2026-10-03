@@ -2231,7 +2231,7 @@
     "eyebrow": "API 密钥",
     "title": "API 密钥",
     "description": "管理客户端认证密钥",
-    "add": "API 密钥",
+    "add": "创建密钥",
     "configured": "Configured keys",
     "security_note": "Use strong, unique keys and rotate them regularly.",
     "empty_title": "No API keys configured",

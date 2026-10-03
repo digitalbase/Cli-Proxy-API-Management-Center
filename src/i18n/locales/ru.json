@@ -2227,7 +2227,7 @@
     "eyebrow": "API-ключи",
     "title": "API-ключи",
     "description": "Управление ключами аутентификации клиентов",
-    "add": "API-ключи",
+    "add": "Создать ключ",
     "configured": "Configured keys",
     "security_note": "Use strong, unique keys and rotate them regularly.",
     "empty_title": "No API keys configured",

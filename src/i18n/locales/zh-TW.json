@@ -2257,7 +2257,7 @@
     "eyebrow": "API 金鑰",
     "title": "API 金鑰",
     "description": "管理客戶端驗證金鑰",
-    "add": "API 金鑰",
+    "add": "建立密鑰",
     "configured": "Configured keys",
     "security_note": "Use strong, unique keys and rotate them regularly.",
     "empty_title": "No API keys configured",
